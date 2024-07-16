@@ -11,9 +11,9 @@ public class HotelReservationSystem {
         this.bookings = new ArrayList<>();
 
         // Initialize rooms
-        rooms.add(new Room("Single", 1, 100.0));
-        rooms.add(new Room("Double", 2, 150.0));
-        rooms.add(new Room("Suite", 3, 250.0));
+        rooms.add(new Room("Single", 1, 800.0));
+        rooms.add(new Room("Double", 2, 1200.0));
+        rooms.add(new Room("Suite", 3, 2000.0));
     }
 
     public void searchRooms() {
